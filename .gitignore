@@ -1,0 +1,20 @@
+# Build output
+build/
+build-*/
+
+# CTest artifacts (generated wherever ctest is invoked from)
+Testing/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.autosave
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# OS junk
+.DS_Store

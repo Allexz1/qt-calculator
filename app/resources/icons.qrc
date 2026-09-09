@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="calculator-16.png">icons/calculator-16.png</file>
+        <file alias="calculator-32.png">icons/calculator-32.png</file>
+        <file alias="calculator-48.png">icons/calculator-48.png</file>
+        <file alias="calculator-64.png">icons/calculator-64.png</file>
+        <file alias="calculator-128.png">icons/calculator-128.png</file>
+        <file alias="calculator-256.png">icons/calculator-256.png</file>
+    </qresource>
+</RCC>

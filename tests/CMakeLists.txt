@@ -1,0 +1,9 @@
+find_package(Qt6 REQUIRED COMPONENTS Test)
+
+add_executable(test_math_functions test_math_functions.cpp)
+target_link_libraries(test_math_functions PRIVATE Qt6::Test calculator_engine)
+add_test(NAME MathFunctionsTests COMMAND test_math_functions)
+
+add_executable(test_calculator_engine test_calculator_engine.cpp)
+target_link_libraries(test_calculator_engine PRIVATE Qt6::Test calculator_engine)
+add_test(NAME CalculatorEngineTests COMMAND test_calculator_engine)
