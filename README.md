@@ -2,6 +2,8 @@
 
 A native scientific calculator for the Linux desktop, built with Qt 6 (Widgets) and C++. It's designed to feel like a classic handheld calculator: addition, subtraction, multiplication, division, parentheses, powers, roots, trigonometry, logarithms, and basic memory (MC/MR/M+/M-), with a clean expression parser underneath (no `eval()` of any kind).
 
+![Calculator showing 1+2=3](docs/screenshot.png)
+
 ## Features
 
 - Standard operations: `+ − × ÷`, parentheses, decimal point (follows your system's `.`/`,` convention, and accepts either while typing), sign toggle, percent, clear, backspace
